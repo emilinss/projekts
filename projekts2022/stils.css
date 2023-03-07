@@ -1,0 +1,27 @@
+body{
+    background-color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.visslogs{
+    border: 5px solid;
+    height: 270px;
+}
+.logs{
+    text-align: center;
+}
+#logotips{
+    height: 100px;
+    width: 100px;
+    float: left;
+    position: fixed;
+}
+#atsauksme {
+    height: 250px;
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+
+
+  }
