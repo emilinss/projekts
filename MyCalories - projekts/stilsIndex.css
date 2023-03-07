@@ -1,0 +1,218 @@
+html{
+    background-color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+}
+#virsraksts{
+    text-align: center;
+}
+.socialie-tikli{
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+    width: 130px;
+    margin-bottom: 0px;
+}
+.maltites-aprekins{
+    border-radius: 10px;
+    width: 150px;
+    margin-top: 100px;
+    margin-left: 300px;
+    float: left;
+}
+.velies-dietu{
+    border-radius: 10px;
+    width: 150px;
+    margin-top: 100px;
+    margin-left: 100px;
+    float: left;
+}
+.BMI-aprekins{
+    border-radius: 10px;
+    width: 150px;
+    margin-top: 100px;
+    margin-left: 100px;
+    float: left;
+}
+.ieteikumi{
+    border-radius: 10px;
+    width: 150px;
+    margin-top: 100px;
+    margin-left: 100px;
+    float: left;
+}
+.programmas{
+    border-radius: 10px;
+    width: 190px;
+    margin-top: 100px;
+    margin-left: 100px;
+    float: left;
+}
+.abonoments{
+    border-radius: 10px;
+    position: fixed;
+    margin-left: 1700px;
+    margin-top: 650px ;
+    height: 80px;
+    width: 150px;
+}
+#poga1{
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 10);
+    background-image: linear-gradient(to right, #3d3b3b, #868480);
+    position: relative;
+  }
+#poga1:hover{
+    animation-name: bounce;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+  }
+  @keyframes bounce {
+    0% {
+      top: 0;
+    }
+    50% {
+      top: -10px;
+    }
+    100% {
+      top: 0;
+    }
+}
+.kalkulators{
+    background-color: grey;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-left:200px;
+    margin-top: 100px ;
+    height:500px;
+    width: 750px;
+    float: left;
+}
+#kalk{
+    margin-left: 10px;
+}
+.kalkulators2{
+    background-color: grey;
+    float: right;
+    margin-right: 183px;
+    margin-top: 100px;
+    height: 500px;
+    width: 750px;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+}
+#kalk{
+    margin-left: 10px;
+    color: white;
+}
+#virsrakstsbmi{
+    text-align: center;
+    margin-top: 50px ;
+}
+#poga{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.apraksts{
+    background-color: grey;
+    margin-left: 550px;
+    margin-top: 50px;
+    height: 500px;
+    width: 750px;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+}
+.kalkulators3{
+    background-color: grey;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-left:200px;
+    margin-top: 100px ;
+    height:600px;
+    width: 750px;
+    float: left;
+    position: relative;
+}
+#kalorijasKalkulators{
+    position: absolute;
+}
+.rezultats3{
+    background-color: grey;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-left:1000px;
+    margin-top: 121px ;
+    height:600px;
+    width: 750px;
+}
+#result1{
+    margin-left: 20px;
+    color: white;
+}
+.svara-zaudesanai{
+    background-color: grey;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-left:200px;
+    height:600px;
+    width: 750px;
+    float: left;
+}
+.virsraksts0{
+    background-color: rgb(130, 205, 31);
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-left:200px;
+    margin-top: 100px ;
+    height:100px;
+    width: 750px;
+}
+.svara-uznemsanai{
+    background-color: grey;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-right: 183px;
+    height:600px;
+    width: 750px;
+    float: right;
+}
+.virsraksts00{
+    background-color: rgb(230, 65, 15);
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-left: 955px;
+    height:100px;
+    width: 750px;
+    margin-top: -102px;
+}
+.proteina-kalkulators{
+    background-color: grey;
+    margin-left: 600px;
+    margin-top: 650px;
+    height: 500px;
+    width: 750px;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+}

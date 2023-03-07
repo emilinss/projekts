@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyCalories - Maltītes Aprēķins</title>
+    <link rel="stylesheet" href="stilsIndex.css">
+</head>
+<body>
+    <a href="index.html"><h1 id="virsraksts">𝓜𝔂𝓒𝓪𝓵𝓸𝓻𝓲𝓮𝓼</h1></a> 
+    <h2 style="text-align:center">Maltītes aprēķins - Cik daudz šodien ēdīsim?</h2>
+    <div class="kalkulators3">
+        <form class="kalorijasKalkulators">
+            <label><h2 id="kalk">Vecums:</h2></label>
+            <input type="text" id="age"><br><br>
+        
+            <label><h2 id="kalk">Dzimums:</h2></label>
+            <select id="gender">
+              <option value="male">Vīrietis</option>
+              <option value="female">Sieviete</option>
+            </select><br><br>
+        
+            <label><h2 id="kalk">Jūsu svars (kg):</h2></label>
+            <input type="text" id="weight"><br><br>
+        
+            <label><h2 id="kalk">Jūsu augums (cm):</h2></label>
+            <input type="text" id="height"><br><br>
+        
+            <label><h2 id="kalk">Aktivitāšu mērs:</h2></label>
+            <select id="activity_level">
+              <option value="1.2">Sēdošs</option>
+              <option value="1.375">Mazliet Aktīvs</option>
+              <option value="1.55">Viduvēji Aktīvs</option>
+              <option value="1.725">Ļoti Aktīvs</option>
+              <option value="1.9">Ekstremāli Aktīvs</option>
+            </select><br><br>
+        
+            <button class="poga" onclick="calculateCalories(event)">Izrēķināt ikdienišķās kalorijas!</button>
+          </form>
+       
+ 
+        
+          <script>
+            function calculateCalories(event) {
+              event.preventDefault();
+              var age = document.getElementById("age").value;
+              var gender = document.getElementById("gender").value;
+              var weight = document.getElementById("weight").value;
+              var height = document.getElementById("height").value / 100;
+              var activity_level = document.getElementById("activity_level").value;
+        
+              var bmr;
+              if (gender === "male") {
+                bmr = 66 + (13.7 * weight) + (5 * height * 100) - (6.8 * age);
+              } else {
+                bmr = 655 + (9.6 * weight) + (1.8 * height * 100) - (4.7 * age);
+              }
+        
+              var daily_calories = bmr * activity_level;
+              document.getElementById("result1").innerHTML = "Jūsu ikdienišķās kalorijas: " + Math.round(daily_calories) + " kalorijas.";
+            }
+          </script>
+      </form>
+    </div>
+    <div class="rezultats3">
+      <h2 style="text-align: center; color: white;">Rezultāts</h2>
+      <p id="result1"></p>
+      <p id="programmuizvele">
+        <script>
+          if(result1<1500){
+            document.getElementById("programmuizvele").innerHTML = "Ieteicamā programma: " + "Bulk";
+          }
+        </script>
+      </p>
+    </div>
+</body>
+</html>

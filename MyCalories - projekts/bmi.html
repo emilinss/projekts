@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyCalories - BMI</title>
+    <link rel="stylesheet" href="stilsIndex.css">
+</head>
+<body>
+    <a href="index.html"><h1 id="virsraksts">𝓜𝔂𝓒𝓪𝓵𝓸𝓻𝓲𝓮𝓼</h1></a> 
+    <h2 style="text-align:center"> BMI ( Ķermeņa masas indeksa ) aprēķins</h2>
+    <div class="kalkulators">
+            <form>
+        <label><h2  id="kalk"> Jūsu svars (kg): </h2> </label>
+        <input type="text" id="weight"><br><br>
+    
+        <label><h2 id="kalk"> Jūsu augums (cm): </h2></label>
+        <input type="text" id="height"><br><br>
+    
+        <button id="poga" type="button" onclick="calculateBMI()">Izrēķināt!</button>
+      </form>
+    </div>
+    <div class="kalkulators2">
+        <h2 id="kalk">Jūsu rezultāts:</h2>
+        <p id="result"></p>
+        <br>
+        <img src="https://www.cdc.gov/healthyweight/images/assessing/bmi-adult-fb-600x315.jpg">
+        <script>
+        function calculateBMI() {
+          var weight = document.getElementById("weight").value;
+          var height = document.getElementById("height").value / 100;
+          var bmi = weight / (height * height);
+          document.getElementById("result").innerHTML = "Jūsu BMI ir: " + bmi.toFixed(2);
+        }
+      </script>
+       </div>
+       <h1 id="virsrakstsbmi">Kas ir BMI ( Ķermeņa masas indekss )?</h1>
+       <div class="apraksts">
+       <p style="text-align: center; color: antiquewhite;">Ķermeņa masas indekss jeb Kitēla indekss (indice de Quetelet) ir beļģu statistiķa Ādolfa Kitēla (1796-1874) izgudrota cilvēka ķermeņa aptaukošanās pakāpes aprēķināšanas metode. Ķermeņa masas indekss norāda vai cilvēka ķermeņa svars ir veselīgs attiecībā pret cilvēka augumu (garumu).</p>
+
+       <p style="text-align: center; color: antiquewhite;">Lai aprēķinātu ķermeņa masas indeksu nepieciešams svaru (kilogramos) dalīt ar augumu kvadrātā (metros).</p>
+        
+        <p style="text-align: center; color: antiquewhite;">Pasaules Veselības organizācijas (PVO) ieteiktais veselīgais BMI diapazons gan vīriešiem, gan sievietēm ir no 18,5 līdz 25. To plaši izmanto medicīnas jomā kā ātru iespējamo veselības komplikāciju indikatoru. Parasti, jo augstāks ir ķermeņa masas, jo lielāka ir iespēja, ka cilvēks cietīs no tādām veselības problēmām kā aptaukošanās, diabēts, sirds slimības un daudzas citas. Ārsti izmanto BMI, lai informētu savus pacientus par iespējamām veselības problēmām, it īpaši, ja ir manāms pakāpenisks viņu BMI pieaugums, un pašlaik tas ir oficiālais rādītājs, lai klasificētu personas pēc dažādiem aptaukošanās līmeņiem.</p>
+        
+        <p style="text-align: center; color: antiquewhite;">BMI diapazoni atšķiras atkarībā no tādiem faktoriem kā reģions un vecums, un dažreiz tie tiek iedalīti apakš kategorijās, piemēram, ļoti zems svars vai ļoti smaga aptaukošanās. Liekais svars vai nepietiekams svars var būtiski ietekmēt veselību, tāpēc, lai gan BMI nav pilnīgi precīza veselīga ķermeņa svara aprēķināšanas metode (jo netiek ņemta vērā muskuļu un tauku masas savstarpējā attiecība)</p>
+        
+        <p style="text-align: center; color: antiquewhite;"> tā tiek plaši izmantota sākotnējā veselīga svara diagnostikā, jo ir ātra un pietiekami precīza 90–95% cilvēku.</p>
+    </div>
+</body>
+</html>
