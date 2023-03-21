@@ -58,7 +58,7 @@
               }
         
               var daily_calories = bmr * activity_level;
-              document.getElementById("result1").innerHTML = "Jūsu ikdienišķās kalorijas: " + Math.round(daily_calories) + " kalorijas.";
+              document.getElementById("result1").innerHTML = /*"Lai saglabātu Jūsu svaru, Jūsu ikdienišķās kalorijas nedrīkst pārsniegt/nesasniegt: " +*/ Math.round(daily_calories) /*+ " kalorijas."*/;
             }
           </script>
       </form>
@@ -66,13 +66,14 @@
     <div class="rezultats3">
       <h2 style="text-align: center; color: white;">Rezultāts</h2>
       <p id="result1"></p>
-      <p id="programmuizvele">
+      <p id="programmuizvele"></p>
         <script>
-          if(result1<1500){
-            document.getElementById("programmuizvele").innerHTML = "Ieteicamā programma: " + "Bulk";
+          var result2 = getElementById("result1").value
+          if(result2<1500){
+            document.getElementById("programmuizvele").innerHTML = "Ieteicamā programma: " + "Ēst vairāk!!";
           }
         </script>
-      </p>
+      
     </div>
 </body>
 </html>

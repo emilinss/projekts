@@ -216,3 +216,78 @@ html{
     border-color: black;
     border-radius: 10px;
 }
+.visiIeteikumi{
+    margin-left: 150px;
+}
+.pirmaisIeteikums{
+    background-color: grey;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+    width:500px;
+    height: 425px;
+    margin-left: 20px;
+    float: left;
+}
+.otraisIeteikums{
+    background-color: grey;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+    width:500px;
+    height: 425px;
+    margin-left: 20px;
+    float: left;
+}
+.tresaisIeteikums{
+    background-color: grey;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+    width:500px;
+    height: 425px;
+    margin-left: 20px;
+    float: left;
+}
+.visiIeteikumi2{
+    margin-left: 150px;
+    margin-top: 425px;
+}
+.ceturtaisIeteikums{
+    background-color: grey;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+    width:500px;
+    height: 425px;
+    margin-left: 20px;
+    float: left;
+}
+.piektaisIeteikums{
+    background-color: grey;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+    width:500px;
+    height: 425px;
+    margin-left: 20px;
+    float: left;
+}
+.sestaisIeteikums{
+    background-color: grey;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+    width:500px;
+    height: 425px;
+    margin-left: 20px;
+    float: left;
+}
+.lietotajaSaskarsme{
+    margin-top: 875px;
+    clear: both;
+}
+iframe {
+    margin:auto;
+    display:block;
+}
