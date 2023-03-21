@@ -83,6 +83,66 @@ html{
       top: 0;
     }
 }
+#poga69{
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 10);
+    background-image: linear-gradient(to right, #3d3b3b, #868480);
+    position: relative;
+    margin-left: 400px;
+    margin-top: 200px;
+  }
+#poga69:hover{
+    animation-name: bounce;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+  }
+  @keyframes bounce {
+    0% {
+      top: 0;
+    }
+    50% {
+      top: -10px;
+    }
+    100% {
+      top: 0;
+    }
+}
+#poga6{
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 10);
+    background-image: linear-gradient(to right, #3d3b3b, #868480);
+    position: relative;
+    margin-left: 400px;
+    margin-top: -200px;
+  }
+#poga6:hover{
+    animation-name: bounce;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+  }
+  @keyframes bounce {
+    0% {
+      top: 0;
+    }
+    50% {
+      top: -10px;
+    }
+    100% {
+      top: 0;
+    }
+}
 .kalkulators{
     background-color: grey;
     border: 1px solid;
@@ -312,4 +372,26 @@ iframe {
     color: #18ab29;
 	font-size:17px;
 	padding:16px 31px;
+}
+.abonoments-menesis{
+    margin-top: 300px;
+    margin-left: 300px;
+    width: 500px;
+    height: 200px;
+    background-color: grey;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color:black ;
+}
+.abonoments-gads{
+    margin-left: 1000px;
+    margin-top: -205px;
+    width: 500px;
+    height: 200px;
+    background-color: grey;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color:black ;
 }
