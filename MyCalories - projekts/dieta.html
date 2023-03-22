@@ -12,18 +12,57 @@
     <h2 style="text-align:center"> Ekspertu Ieteiktās diētas</h2>
     <div class="virsraksts0">
         <h1 style="text-align: center; color: white;">Svara zaudēšanai!</h1>
+        <button id="poga70">CUT+</button>
+        <button id="poga70">CUT+</button>
+        <button id="poga70">CUT+</button>
     </div>
     <div class="svara-zaudesanai">
         <p style="text-align: center; color: white;">Svara zaudēšanai!</p>
     </div>
     <div class="virsraksts00">
         <h1 style="text-align: center; color: white;">Svara uzņemšanai!</h1>
+        <button id="poga70">BULK+</button>
+        <button id="poga70">BULK+</button>
+        <button id="poga70">BULK+</button>
     </div>
     <div class="svara-uznemsanai">
         <p style="text-align: center; color: white;">Svara uzņemšanai!</p>
     </div>
     <div class="proteina-kalkulators">
-        <p style="text-align: center; color: white;"> Ikdienišķais proteīna (olbaltumvielu) kalkulators</p>
+        <h1 style="text-align: center;">Olbaltumvielu kalkulators</h1>
+        <form>
+            <label for="weight">Svars (kg): </label>
+            <input type="number" id="weight" name="weight" min="1">
+            <br><br>
+            <label for="height">Garums (cm): </label>
+            <input type="number" id="height" name="height" min="1">
+            <br><br>
+            <button type="button" onclick="calculateProtein()">Izrēķināt!</button>
+        </form>
+        <hr>
+        <h2>Proteīna rekomendācija</h2>
+        <p id="result"></p>
+        
+        <script>
+            function calculateProtein() {
+                // Get user input for weight and height
+                var weight = document.getElementById("weight").value;
+                var height = document.getElementById("height").value;
+                
+                // Validate user input
+                if (weight == "" || height == "") {
+                    alert("Lūdzu ievadiet gan svaru, gan garumu!");
+                    return;
+                }
+                
+                // Calculate recommended protein intake
+                var proteinIntake = weight * 1.5;
+                
+                // Update the result
+                document.getElementById("result").innerHTML = "Jūsu ikdienišķais proteīna daudzums ir " + proteinIntake + " grami. ";
+            }
+        </script>
+    </div>
     </div>
 </body>
 </html>
