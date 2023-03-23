@@ -12,6 +12,45 @@ html{
     width: 130px;
     margin-bottom: 0px;
 }
+.par-mums{
+    float:right;
+}
+.konkati{
+    float:right;
+}
+.veidotajs{
+    margin-top: 750px;
+    margin-left: 20px;
+}
+#poga420{
+    color: white;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 10);
+    background-image: linear-gradient(to right, #3d3b3b, #868480);
+    position: relative;
+    line-height: 20px;
+  }
+#poga420:hover{
+    animation-name: bounce;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+  }
+  @keyframes bounce {
+    0% {
+      top: 0;
+    }
+    50% {
+      top: -10px;
+    }
+    100% {
+      top: 0;
+    }
+}
+
 .maltites-aprekins{
     border-radius: 10px;
     width: 150px;
@@ -249,6 +288,24 @@ html{
     margin-top: 100px ;
     height:100px;
     width: 750px;
+}
+.kontakts{
+    text-align: center;
+    height: 70px;
+    width: 749px;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 10px;
+}
+.kontakts2{
+    text-align: center;
+    height: 70px;
+    width: 749px;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: -4px;
 }
 .svara-uznemsanai{
     background-color: grey;
