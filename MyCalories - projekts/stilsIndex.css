@@ -160,10 +160,9 @@ html{
     }
 }
 #poga691{
-    width: 2000px;
+    width: 1920px;
     height: 200px;
     color: white;
-    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -369,10 +368,31 @@ html{
     border: 1px solid;
     border-color: black;
     border-radius: 10px;
-    margin-right: 183px;
+    margin-right: 165px;
     height:600px;
     width: 750px;
     float: right;
+}
+.svara-uznemsanai1{
+    background-color: grey;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-right: 180px;
+    height:400px;
+    width: 750px;
+    float: right;
+}
+.svara-zaudesanai1{
+    background-color: grey;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-left:200px;
+    height:400px;
+    width: 750px;
+    float: left;
+
 }
 .virsraksts00{
     background-color: rgb(230, 65, 15);
