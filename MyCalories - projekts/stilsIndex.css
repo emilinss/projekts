@@ -582,3 +582,64 @@ iframe {
       top: 0;
     }
 }
+
+.virsraksts01{
+    background-color: rgb(230, 65, 15);
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+    height:100px;
+    width: 250px;
+    margin-top: -102px;
+    margin-left: 400px;
+}
+.svara-uznemsanai2{
+    background-color: grey;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+    height:400px;
+    width: 250px;
+    margin-left: 400px;
+}
+.svara-zaudesanai2{
+    background-color: grey;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-left:100px;
+    height:400px;
+    width: 250px;
+    float: left;
+
+}
+.virsraksts000{
+    background-color: rgb(130, 205, 31);
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-left:100px;
+    margin-top: 100px ;
+    height:100px;
+    width: 250px;
+}
+.virsraksts001{
+    background-color: rgb(130, 205, 31);
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-left:700px;
+    margin-top: -503px ;
+    height:100px;
+    width: 250px;
+}
+.svara-zaudesanai3{
+    background-color: grey;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-left:700px;
+    height:400px;
+    width: 250px;
+
+}
