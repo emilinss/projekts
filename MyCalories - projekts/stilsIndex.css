@@ -584,7 +584,7 @@ iframe {
 }
 
 .virsraksts01{
-    background-color: rgb(230, 65, 15);
+    background-color: rgb(130, 205, 31);
     border: 1px solid;
     border-color: black;
     border-radius: 10px;
@@ -594,6 +594,7 @@ iframe {
     margin-left: 400px;
 }
 .svara-uznemsanai2{
+    color:white;
     background-color: grey;
     border: 1px solid;
     border-color: black;
@@ -603,6 +604,7 @@ iframe {
     margin-left: 400px;
 }
 .svara-zaudesanai2{
+    color: white;
     background-color: grey;
     border: 1px solid;
     border-color: black;
@@ -634,11 +636,75 @@ iframe {
     width: 250px;
 }
 .svara-zaudesanai3{
+    color: white;
     background-color: grey;
     border: 1px solid;
     border-color: black;
     border-radius: 10px;
     margin-left:700px;
+    height:400px;
+    width: 250px;
+
+}
+.virsraksts002{
+    background-color: rgb(130, 205, 31);
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-left:1000px;
+    margin-top: -503px ;
+    height:100px;
+    width: 250px;
+}
+.svara-zaudesanai4{
+    color: white;
+    background-color: grey;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-left:1000px;
+    height:400px;
+    width: 250px;
+
+}
+.virsraksts003{
+    background-color: rgb(130, 205, 31);
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-left:1300px;
+    margin-top: -503px ;
+    height:100px;
+    width: 250px;
+}
+.svara-zaudesanai5{
+    color: white;
+    background-color: grey;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-left:1300px;
+    height:400px;
+    width: 250px;
+
+}
+.virsraksts004{
+    background-color: rgb(130, 205, 31);
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-left:1600px;
+    margin-top: -503px ;
+    height:100px;
+    width: 250px;
+}
+.svara-zaudesanai6{
+    color: white;
+    background-color: grey;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-left:1600px;
     height:400px;
     width: 250px;
 
