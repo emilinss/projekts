@@ -113,7 +113,7 @@ html{
   }
 #poga1:hover{
     animation-name: bounce;
-    animation-duration: 0.5s;
+    animation-duration: 0.3s;
     animation-iteration-count: 1;
   }
   @keyframes bounce {
