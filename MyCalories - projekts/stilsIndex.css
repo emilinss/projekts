@@ -709,3 +709,9 @@ iframe {
     width: 250px;
 
 }
+.kasSis{
+    
+    border: 1px solid;
+    border-color: black;
+    border-radius: 5px;
+}

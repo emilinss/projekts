@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyCalories - Logins</title>
+    <link rel="stylesheet" href="stilsIndex.css">
+    <style>
+        html{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html"><h1 id="virsraksts">𝓜𝔂𝓒𝓪𝓵𝓸𝓻𝓲𝓮𝓼 +</h1></a>
+    <h2>Logins priekš MyCalories konta</h2>
+
+	<script>
+		function validateForm() {
+			var username = document.getElementById("username").value;
+			var password = document.getElementById("password").value;
+			if (username == "emils" && password == "emils123") {
+				window.location.href = "piedavajumi.html";
+				return false;
+			}
+			else {
+				alert("Nepareiza parole vai lietotājvārds!");
+				return false;
+			}
+		}
+	</script>
+</head>
+<body>
+
+
+	<form onsubmit="return validateForm()">
+		<label for="username">Lietotājvārds:</label>
+		<input type="text" id="username" name="username" required><br><br>
+
+		<label for="password">Parole:</label>
+		<input type="password" id="password" name="password" required><br><br>
+
+		<input type="submit" value="Ieiet!">
+	</form>
+
+    <h3 style="text-align: center;">Lūdzu, ieejiet savā kontā, kur Jums ir aktīvs "MyCalories+" abonoments, savādāk Jūs netiksiet iekšā.</h3>
+<div class="parolePareiza">
+    <p>Lietotājvārds : emils</p>
+    <p>Parole : emils123</p>
+</div>
+
+</body>
+</html>
