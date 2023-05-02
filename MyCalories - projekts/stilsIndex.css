@@ -298,8 +298,13 @@ html{
     border-radius: 10px;
     margin-left:1000px;
     margin-top: 71px ;
-    height:600px;
+    height:150px;
     width: 750px;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-left:10px;
 }
 #result1{
     margin-left: 20px;
